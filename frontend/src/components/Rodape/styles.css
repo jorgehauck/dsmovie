@@ -52,26 +52,23 @@
     transition:color 0.2s;
 }
 
-#myFooter .fa-linkedin:hover{
-   color: #2b55ff;
+.linkedin {
+    transition: all .5s;
+    border: 10px solid transparent;
 }
 
-#myFooter .fa-linkedin:focus{
-    color: #2b55ff; 
+.linkedin:hover{
+    border: 10px solid #0e76a8;
+    border-radius: 50%;
 }
 
-#myFooter .fa-github:hover{
-    color: black;
- }
- 
- #myFooter .fa-github:focus{
-     color: black; 
- }
- 
 
+.github {
+    transition: all .5s;
+    border: 10px solid transparent;
+}
 
- 
-
-/* CSS utilizado para posicionar o rodapé no final da página. */
-/* Você pode remover isso. */
-
+.github:hover{
+    border: 10px solid black;
+    border-radius: 50%;
+}
