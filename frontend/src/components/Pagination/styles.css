@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-primary);
+    border: 1px solid #cc0000;
     cursor: pointer;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .dsmovie-pagination-button:disabled {
-    border: 1px solid #c2c2c2;
+    border: 1px solid #cc0000;
     cursor: unset;
 }
 
@@ -45,7 +45,7 @@
 .dsmovie-pagination-container p {
     margin: 0;
     font-size: 12px;
-    color: var(--color-primary);
+    color: #cc0000;
 }
 
 .dsmovie-flip-horizontal {
