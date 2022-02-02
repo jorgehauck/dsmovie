@@ -52,6 +52,7 @@ function FormCard({ movieId }: Props) {
     }
 
     return (
+
         <div className="dsmovie-form-container">
             <img className="dsmovie-movie-card-image" src={movie?.image} alt={movie?.title} />
             <div className="dsmovie-card-bottom-container">
@@ -59,7 +60,7 @@ function FormCard({ movieId }: Props) {
                 <form className="dsmovie-form" onSubmit={handleSubmit}>
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="email">Informe seu email</label>
-                        <input type="email" className="form-control" id="email" required />
+                        <input type="email" className="form-control" id="email" required/>
                     </div>
                     <div className="form-group dsmovie-form-group">
                         <label htmlFor="score">Informe sua avaliação</label>
@@ -72,14 +73,15 @@ function FormCard({ movieId }: Props) {
                         </select>
                     </div>
                     <div className="dsmovie-form-btn-container">
-                        <button type="submit" className="btn btn-danger dsmovie-btn">Salvar</button>
+                        <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
                     </div>
                 </form >
                 <Link to="/">
-                <button className="btn btn-danger dsmovie-btn mt-3">Cancelar</button>
+                    <button className="btn btn-danger dsmovie-btn mt-3">Cancelar</button>
                 </Link>
             </div>
         </div>
+
     );
 }
 
